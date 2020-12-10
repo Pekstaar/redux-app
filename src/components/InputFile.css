@@ -1,0 +1,8 @@
+.form{
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+}
+#input{
+    margin-bottom: 3em;
+}

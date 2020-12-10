@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import InputFile from './components/InputFile';
+import university from './img/university.jpg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+
+      <div className="col-1">
+        <div className="title">
+          <h4>Student Registration</h4>
+          <div className="logo">
+            <img src={university} alt=""/>
+          </div>
+        </div>
+
+        <div className="body">
+          <div className="error"></div>
+          <InputFile/>
+        </div>
+      </div>
+      
     </div>
   );
 }
