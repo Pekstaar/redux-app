@@ -1,0 +1,17 @@
+.form{
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    row-gap: 1em;
+    padding-bottom: 1em;
+}
+.input_one{
+    padding: 40px;
+}
+.input{
+    border: solid 2px;
+}
+.btn{
+    width: 85%;
+    justify-self: center;
+}

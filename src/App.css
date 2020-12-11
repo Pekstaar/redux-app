@@ -3,10 +3,10 @@
   display: grid;
   background-color: #ffffff;
   place-items: center;
-  margin-top:1em ;
+  margin:1em auto ;
 }
 .col-1{
-  background-color:#eeeeee;
+  background-color:#f5f5f5;
   width: 800px;
   min-height: 85vh;
   border-radius: 1em 1em 0 0;
@@ -23,7 +23,7 @@
   font-size: 22px;
   text-transform: uppercase;
   margin: auto;
-  color: #eeeeee;
+  color: #d1d1d1;
 }
 .logo img{
   height: 3.4em;
